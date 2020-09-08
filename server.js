@@ -9,7 +9,7 @@ const app = express();
 // * The app will need views for index and show
 //
 // * MAIN GOAL:
-// * User should be able to click on a mission’s name on the index page, and be taken to that mission’s show page
+// * User should be able to click on a mission’s name on the index page, and be taken to that mission’s show page to view the data
 //
 // * Bonus/Hungry for More: add images to the data and have them display (google how)
 // * Bonus/Hungry for More: add static css to style the pages (google how)
