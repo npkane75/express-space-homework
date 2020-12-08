@@ -9,7 +9,7 @@ const app = express();
 // * The app will need views for index and show
 //
 // * MAIN GOAL:
-// * User should be able to click on a mission’s name on the index page, and be taken to that mission’s show page
+// * User should be able to click on a mission’s name on the index page, and be taken to that mission’s show page to view the data
 //
 // * Bonus/Hungry for More: add images to the data and have them display (google how)
 // * Bonus/Hungry for More: add static css to style the pages (google how)
@@ -22,7 +22,8 @@ const app = express();
 // PORT
 const port = 3000;
 
-// DATA - put into marsMissions.js file inside of a models folder, for module.exports
+// DATA - move this to a file called marsMissions.js inside of a models folder
+// remember to export (module.exports)
 // remember to require it in the server
 const marsMissions = [
   {
