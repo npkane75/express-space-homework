@@ -3,16 +3,9 @@
   "version": "1.0.1",
   "description": "get your hands dirty learning about express mechanics, and implementing your own show and index routes and views",
   "main": "server.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "mocha --exit",
+    "test": "mocha ./tests --exit",
     "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@git.generalassemb.ly:WebDev-Connected-Classroom/express-space-homework.git"
   },
   "keywords": [
     "express",

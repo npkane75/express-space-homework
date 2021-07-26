@@ -3,7 +3,7 @@
 # Express Parameters: Missions to Mars!
 
 * Fork and clone this repo.
-* Navigate into `express-spae-homework`.
+* Navigate into `express-space-homework`.
 * Run `npm install` to install necessary packages.
 * Follow the directions in `server.js`.
 * As you work, after each route and view that you add, try going to the URLs/views and clicking the links and make sure they are working like you expect.
