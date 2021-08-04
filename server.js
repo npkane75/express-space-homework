@@ -70,10 +70,25 @@ const marsMissions = [
   }
 ];
 
+  app.get('/missions/', (req, res) =>{
+  res.render('./missions/index.ejs',{
+    allTheMissions: marsMissions
+  })
+});
+
+
+app.get('/missions/:id', (req, res) => {
+  res.render('./missions/show.ejs', {
+  indMissions: marsMissions[req.params.id]
+  })
+});
+
+
 
 // LISTENER
 app.listen(port, function() {
   console.log('Missions to Mars running on port: ', port);
 })
 
-module.exports = app;
+
+ module.exports = app
